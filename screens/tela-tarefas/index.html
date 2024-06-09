@@ -3,13 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarefas</title>
+    <title>Tarefas - SeniorMind</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="tarefas-container">
-        <h1>Suas Tarefas</h1>
-        <!-- Conteúdo da tela de tarefas -->
+        <h1>Seus Medicamentos</h1>
+        <form id="medicamento-form">
+            <label for="medicamento-nome">Nome do Medicamento:</label>
+            <input type="text" id="medicamento-nome" name="medicamento-nome" required>
+            
+            <label for="medicamento-horario">Horário:</label>
+            <input type="time" id="medicamento-horario" name="medicamento-horario" required>
+            
+            <button type="submit">Adicionar</button>
+        </form>
+        <ul id="medicamento-lista"></ul>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
