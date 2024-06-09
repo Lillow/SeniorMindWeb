@@ -24,18 +24,18 @@ body, html {
     color: #333;
 }
 
-.cadastro-form {
+#cadastro-form {
     display: flex;
     flex-direction: column;
 }
 
-.cadastro-form label {
+#cadastro-form label {
     margin: 10px 0 5px;
     text-align: left;
     color: #555;
 }
 
-.cadastro-form input {
+#cadastro-form input {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -43,7 +43,7 @@ body, html {
     font-size: 1em;
 }
 
-.cadastro-form button {
+#cadastro-form button {
     padding: 10px;
     background-color: #007BFF;
     color: #fff;
@@ -54,7 +54,7 @@ body, html {
     transition: background-color 0.3s ease;
 }
 
-.cadastro-form button:hover {
+#cadastro-form button:hover {
     background-color: #0056b3;
 }
 
@@ -81,9 +81,9 @@ body, html {
         font-size: 1.5em;
     }
 
-    .cadastro-form label, 
-    .cadastro-form input, 
-    .cadastro-form button {
+    #cadastro-form label, 
+    #cadastro-form input, 
+    #cadastro-form button {
         font-size: 0.9em;
     }
 }
